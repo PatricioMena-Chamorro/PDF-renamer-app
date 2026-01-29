@@ -1,11 +1,16 @@
 # PDF Renamer for Scientific Papers
 
+## 📘 Read this documentation in [Español](README_ES.md)
+
 A lightweight **local Streamlit app** to automatically rename scientific PDF files using the format:
 
 > **FirstAuthor et al. (Year). Title.pdf**
 
 The app extracts metadata directly from the **first page of the PDF** (title, authors, year) and proposes standardized filenames.  
 A safe *preview mode* allows reviewing changes before renaming files.
+
+### Main interface
+![Main interface](assets/main_ui.png)
 
 ---
 
@@ -35,6 +40,8 @@ A safe *preview mode* allows reviewing changes before renaming files.
 ---
 
 ## 🚀 How to run the app (easy mode)
+
+![Quick start demo](assets/quickstart.gif)
 
 1. Download or clone this repository
 2. Double-click the file:
@@ -72,12 +79,14 @@ This approach typically automates 70–90% of the renaming work.
 
 ## 📁 Project structure
 
+```text
 pdf_renamer_app/
 │
 ├─ app.py
 ├─ requirements.txt
 ├─ run_app.bat
 └─ README.md
+```
 
 ## 🧠 Limitations
 
